@@ -11,7 +11,7 @@ async function loadJsonFile(filePath) {
   }
 }
 
-const jsonData = await loadJsonFile('/tickets.json');
+const jsonData = await loadJsonFile('../tickets.json');
 
 // Ініціалізація випадаючого списку країн
 const countrySelect = new SlimSelect({

@@ -1,0 +1,69 @@
+{
+  "countries": [
+    {
+      "id": 10,
+      "name": "Франція",
+      "flag": "./images/flag/france.-flag.png",
+      "description": "Країна кохання та світового мистецтва.",
+      "image": "./images/picture/france-photo.jpg",
+      "ticketPrice": 800,
+      "excursions": [
+        { "name": "Парижський Тур", "price": 100 },
+        { "name": "Луврська Галерея", "price": 120 },
+        { "name": "Ейфелева Вежа", "price": 80 }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Японія",
+      "flag": "./images/flag/japan-flag.png",
+      "description": "Країна високих технологій та традиційного чаю.",
+      "image": "./images/picture/japan-photo.jpg",
+      "ticketPrice": 1200,
+      "excursions": [
+        { "name": "Токійська Скайлайн", "price": 150 },
+        { "name": "Кіотські сади", "price": 110 },
+        { "name": "Фудзіяма", "price": 120 }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Італія",
+      "flag": "./images/flag/italy-flag.png",
+      "description": "Країна хорошої їжі, мистецтва та древніх руїн.",
+      "image": "./images/picture/italy-photo.jpg",
+      "ticketPrice": 900,
+      "excursions": [
+        { "name": "Колізей в Римі", "price": 130 },
+        { "name": "Флоренційська галерея", "price": 100 },
+        { "name": "Венеціанські канали", "price": 90 }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Австралія",
+      "flag": "./images/flag/australia-flag.png",
+      "description": "Країна екзотичної природи та унікальних тварин.",
+      "image": "./images/picture/australia-photo.jpg",
+      "ticketPrice": 1500,
+      "excursions": [
+        { "name": "Сіднейська опера", "price": 180 },
+        { "name": "Великий бар'єрний риф", "price": 200 },
+        { "name": "Айєрс Рок", "price": 160 }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Канада",
+      "flag": "./images/flag/canada-flag.png",
+      "description": "Країна великих озер та приголомшливої природи.",
+      "image": "./images/picture/canada-image.jpg",
+      "ticketPrice": 1100,
+      "excursions": [
+        { "name": "Ніагарські водоспади", "price": 150 },
+        { "name": "Банфський національний парк", "price": 130 },
+        { "name": "Торонто Скайлайн", "price": 120 }
+      ]
+    }
+  ]
+}

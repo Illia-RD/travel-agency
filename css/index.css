@@ -1,0 +1,121 @@
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+section {
+  padding: 50px 0;
+  width: 1200px;
+}
+.country-option-wrap {
+  display: flex;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 15px;
+}
+.card {
+  width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.info {
+  padding: 20px;
+}
+
+.country-iamge {
+  /* width: 100%; */
+  margin: 0 auto;
+  margin-top: 20px;
+  height: auto;
+  border-radius: 8px;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.excursions {
+  margin-top: 15px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.price {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+
+.order-wrap {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.order-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.country-name {
+  margin-left: 20px;
+  text-align: center;
+}
+.excurcion-option-price {
+  text-align: start;
+  margin-left: auto;
+}
+.excursion-price,
+.ticet-price {
+  display: flex;
+  justify-content: space-around;
+}

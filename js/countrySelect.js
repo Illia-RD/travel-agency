@@ -12,12 +12,12 @@ async function loadJsonFile(filePath) {
   }
 }
 
+// підставити своє посилання на json файл
 const jsonData = await loadJsonFile(
   '/tickets.json'
   // посилання на json файл в інтернеті: https://raw.githubusercontent.com/Illia-RD/travel-agency/main/js/tickets.json
   // посилання на json файл в проекті: /json/tickets.json
 );
-// якщо замість json файлу буде використовуватись просто обєкт з даними, то цей код закоментувати
 
 // Ініціалізація випадаючого списку країн
 const countrySelect = new SlimSelect({

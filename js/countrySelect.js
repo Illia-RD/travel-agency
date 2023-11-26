@@ -11,7 +11,7 @@ async function loadJsonFile(filePath) {
   }
 }
 
-const jsonData = await loadJsonFile('/js/js/tickets.json');
+const jsonData = await loadJsonFile('https://raw.githubusercontent.com/Illia-RD/travel-agency/main/js/tickets.json');
 
 // Ініціалізація випадаючого списку країн
 const countrySelect = new SlimSelect({

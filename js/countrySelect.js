@@ -10,7 +10,7 @@ async function loadJsonFile(filePath) {
     throw error; // Передача помилки вище для обробки
   }
 }
-
+// підставити своє посилання на json файл
 const jsonData = await loadJsonFile('https://raw.githubusercontent.com/Illia-RD/travel-agency/main/js/tickets.json');
 
 // Ініціалізація випадаючого списку країн

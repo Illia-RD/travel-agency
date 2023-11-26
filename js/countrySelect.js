@@ -1,5 +1,6 @@
 const card = document.querySelector('.card');
 
+//перевірка json файлу
 async function loadJsonFile(filePath) {
   try {
     const response = await fetch(filePath);
@@ -11,7 +12,12 @@ async function loadJsonFile(filePath) {
   }
 }
 
-const jsonData = await loadJsonFile('/js/js/tickets.json');
+const jsonData = await loadJsonFile(
+  '/tickets.json'
+  // посилання на json файл в інтернеті: https://raw.githubusercontent.com/Illia-RD/travel-agency/main/js/tickets.json
+  // посилання на json файл в проекті: /json/tickets.json
+);
+// якщо замість json файлу буде використовуватись просто обєкт з даними, то цей код закоментувати
 
 // Ініціалізація випадаючого списку країн
 const countrySelect = new SlimSelect({

@@ -14,7 +14,7 @@ async function loadJsonFile(filePath) {
 
 // підставити своє посилання на json файл
 const jsonData = await loadJsonFile(
-  'https://dl.dropboxusercontent.com/scl/fi/32diu8xjrkl39ywv0jj7d/tickets.json?rlkey=8ngetcub9a3miavoab8t5423m&dl=0'
+  'https://dl.dropboxusercontent.com/scl/fi/32diu8xjrkl39ywv0jj7d/tickets.json?rlkey=8ngetcub9a3miavoab8t5423m&dl=0' 
   // посилання на json файл в інтернеті: https://www.dropbox.com/scl/fi/32diu8xjrkl39ywv0jj7d/tickets.json?rlkey=8ngetcub9a3miavoab8t5423m&dl=0
   // посилання на json файл в проекті: /json/tickets.json
 );
